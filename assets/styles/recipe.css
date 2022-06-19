@@ -1,0 +1,9 @@
+header {
+    height: 300px;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+ol li{
+    margin-bottom: 15px;
+}

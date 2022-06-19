@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    text-align: justify;
 }
 
 body {
@@ -15,10 +16,25 @@ body {
 
 /* Dar ancho máximo a la web */
 .wrapper {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto 0 auto;
+    background-color: whitesmoke;
+    padding: 0 40px 0 40px;
 }
 
+header {
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-size: 50px;
+}
 
 /* Estilos necesarios para el Footer de tódas las páginas */
 
@@ -63,7 +79,6 @@ footer ul a {
     color: white;
 }
 
-footer ul .label {
-    color: white;
+.label {
     font-weight: 700;
 }
