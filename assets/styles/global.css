@@ -1,0 +1,69 @@
+/* Fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Normalizar el body sin margenes ni padding, elegir la fuente para toda la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/double-bubble.webp");
+}
+
+/* Dar ancho máximo a la web */
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+
+/* Estilos necesarios para el Footer de tódas las páginas */
+
+footer {
+    background-color: #2a2b35;
+    color: rgb(237, 237, 237);
+}
+
+footer img {
+    width: 75px;
+    height: auto;
+}
+
+footer .logo {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row .column {
+    width: 50%;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul a {
+    color: white;
+}
+
+footer ul .label {
+    color: white;
+    font-weight: 700;
+}

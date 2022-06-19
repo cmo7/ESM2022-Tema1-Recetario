@@ -1,0 +1,47 @@
+header {
+    background: url("../images/header-image.jpg");
+    height: 300px;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: calc(30%);
+    padding: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.card h3 {
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card a {
+    background-color: indianred;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 15px;
+}
